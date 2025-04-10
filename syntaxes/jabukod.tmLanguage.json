@@ -24,6 +24,9 @@
 			"include": "#type"
 		},
 		{
+			"include": "#storage"
+		},
+		{
 			"include": "#truefalse"
 		},
 		{
@@ -69,8 +72,14 @@
 		},
 		"type": {
 			"patterns": [{
-				"name": "entity.name.type.jabukod",
+				"name": "storage.type.jabukod",
 				"match": "\\b(int|float|bool|string|enum)\\b"
+			}]
+		},
+		"storage": {
+			"patterns": [{
+				"name": "storage.modifier.jabukod",
+				"match": "\\b(const|static)\\b"
 			}]
 		},
 		"truefalse": {
