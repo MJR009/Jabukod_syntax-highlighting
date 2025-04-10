@@ -16,6 +16,18 @@
 		},
 		{
 			"include": "#keywords"
+		},
+		{
+			"include": "#operators"
+		},
+		{
+			"include": "#type"
+		},
+		{
+			"include": "#truefalse"
+		},
+		{
+			"include": "#function"
 		}
 	],
 	"repository": {
@@ -47,6 +59,30 @@
 			"patterns": [{
 				"name": "keyword.control.jabukod",
 				"match": "\\b(if|else|while|for|foreach|return|exit|suspend|resume|continue|break|redo|restart|read|write)\\b"
+			}]
+		},
+		"operators": {
+			"patterns": [{
+				"name": "keyword.operator.jabukod",
+				"match": "\\b(\\*\\*|-|\\~|!|\\*|\\/|%|\\+|<<|>>|<|<=|>|>=|==|!=|&|\\^|\\||&&|\\|\\||=)\\b"
+			}]
+		},
+		"type": {
+			"patterns": [{
+				"name": "entity.name.type.jabukod",
+				"match": "\\b(int|float|bool|string|enum)\\b"
+			}]
+		},
+		"truefalse": {
+			"patterns": [{
+				"name": "constant.language.jabukod",
+				"match": "\\b(true|false)\\b"
+			}]
+		},
+		"function": {
+			"patterns": [{
+				"name": "entity.name.function.jabukod",
+				"match": "\\bmain\\b"
 			}]
 		}
 	},
