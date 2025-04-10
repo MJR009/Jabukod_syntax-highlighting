@@ -2,7 +2,7 @@
   "name": "jabukod-syntax-highlighting",
   "displayName": "Jabukód Syntax Highlighting",
   "description": "Syntax highlighting of the Jabukód programming language for \"Compiler generating the target code secured against reverse analysis\" bachelors thesis",
-  "version": "0.1",
+  "version": "0.0.1",
   "engines": {
     "vscode": "^1.99.0"
   },
