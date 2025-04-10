@@ -76,7 +76,7 @@
 		"type": {
 			"patterns": [{
 				"name": "storage.type.jabukod",
-				"match": "\\b(int|float|bool|string|enum)\\b"
+				"match": "\\b(void|int|float|bool|string|enum)\\b"
 			}]
 		},
 		"storage": {
