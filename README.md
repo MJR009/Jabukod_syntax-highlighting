@@ -12,7 +12,4 @@ custom programs.
 - To use this extension, activate it through Visual Studio Code browser. Files append with the `.jk`
 filename extension will automatically have Jabukód-style highlighting.
 
-- To compile custom Jabukód programs, you can find the Jabukód compiler at //TODO link to repo
-
-View extension at:</br>
-// TODO link to marketplace
+- To compile custom Jabukód programs, you can find the Jabukód compiler at //TODO LINK TO PUBLIC REPO
