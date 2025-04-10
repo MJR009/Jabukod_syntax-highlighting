@@ -3,29 +3,51 @@
 	"name": "Jabukód",
 	"patterns": [
 		{
-			"include": "#keywords"
+			"include": "#block_comment"
+		},
+		{
+			"include": "#line_comment"
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "#numbers"
+		},
+		{
+			"include": "#keywords"
 		}
 	],
 	"repository": {
-		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.jabukod",
-				"match": "\\b(if|while|for|return)\\b"
-			}]
+		"block_comment": {
+			"name": "comment.block.jabukod",
+			"begin": "/\\*",
+			"end": "\\*/"
+		},
+		"line_comment": {
+			"name": "comment.line.double-slash.jabukod",
+			"match": "//.*$"
 		},
 		"strings": {
 			"name": "string.quoted.double.jabukod",
 			"begin": "\"",
 			"end": "\"",
-			"patterns": [
-				{
-					"name": "constant.character.escape.jabukod",
-					"match": "\\\\."
-				}
-			]
+			"patterns": [{
+				"name": "constant.character.escape.jabukod",
+				"match": "\\\\."
+			}]
+		},
+		"numbers": {
+			"patterns": [{
+				"name": "constant.numeric.jabukod",
+				"match": "(i?)-?\\b(0x[0-9a-f]+|\\d+\\.\\d+(e-?\\d+)?|\\d+(e-?\\d+)?)\\b"
+			}]
+		},
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.jabukod",
+				"match": "\\b(if|else|while|for|foreach|return|exit|suspend|resume|continue|break|redo|restart|read|write)\\b"
+			}]
 		}
 	},
 	"scopeName": "source.jabukod"
