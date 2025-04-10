@@ -31,6 +31,9 @@
 		},
 		{
 			"include": "#function"
+		},
+		{
+			"include": "#variable"
 		}
 	],
 	"repository": {
@@ -91,7 +94,13 @@
 		"function": {
 			"patterns": [{
 				"name": "entity.name.function.jabukod",
-				"match": "\\bmain\\b"
+				"match": "(i?)\\b[a-z_][a-z0-9_]*\\s*\\("
+			}]
+		},
+		"variable": {
+			"patterns": [{
+				"name": "variable.other",
+				"match": "(i?)\\b[a-z_][a-z0-9_]*\\b"
 			}]
 		}
 	},
