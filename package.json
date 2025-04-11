@@ -2,7 +2,7 @@
   "name": "jabukod-syntax-highlighting",
   "displayName": "Jabukód Syntax Highlighting",
   "description": "Syntax highlighting of the Jabukód programming language for \"Compiler generating the target code secured against reverse analysis\" bachelors thesis",
-  "icon": "./images/jabukod_icon.png",
+  "icon": "./images/icon.png",
   "version": "0.0.1",
   "publisher": "MJR009",
   "engines": {
@@ -16,7 +16,11 @@
       "id": "jabukod",
       "aliases": ["Jabukód", "jabukod"],
       "extensions": [".jk"],
-      "configuration": "./language-configuration.json"
+      "configuration": "./language-configuration.json",
+      "icon": {
+        "light": "./images/jabukod_icon.svg",
+        "dark": "./images/jabukod_icon.svg"
+      }
     }],
     "grammars": [{
       "language": "jabukod",
