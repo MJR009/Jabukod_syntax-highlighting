@@ -58,7 +58,7 @@
 		"numbers": {
 			"patterns": [{
 				"name": "constant.numeric.jabukod",
-				"match": "(i?)-?\\b(0x[0-9a-f]+|\\d+\\.\\d+(e-?\\d+)?|\\d+(e-?\\d+)?)\\b"
+				"match": "-?\\b(0[xX][0-9a-fA-F]+|\\d+\\.\\d+([eE]-?\\d+)?|\\d+([eE]-?\\d+)?)\\b"
 			}]
 		},
 		"keywords": {
@@ -94,13 +94,13 @@
 		"function": {
 			"patterns": [{
 				"name": "entity.name.function.jabukod",
-				"match": "(i?)\\b[a-z_][a-z0-9_]*\\s*\\("
+				"match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\s*\\("
 			}]
 		},
 		"variable": {
 			"patterns": [{
 				"name": "variable.other.jabukod",
-				"match": "(i?)\\b[a-z_][a-z0-9_]*\\b"
+				"match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b"
 			}]
 		}
 	},
