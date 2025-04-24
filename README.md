@@ -15,3 +15,11 @@ filename extension will automatically have Jabukód-style highlighting.
 
 <!--- To compile custom Jabukód programs, you can find the Jabukód compiler at //TODO LINK TO PUBLIC REPO-->
 
+## License
+
+To generate the base of this extension, the Yo Code entension and customization generator was used.
+It is avaliable at: <br/>
+https://github.com/microsoft/vscode-generator-code?tab=readme-ov-file <br/>
+This extension uses the same license as the tool, the <b>MIT License</b>.
+
+Original Yo Code license and copyright notice is included in this repository in `/Yo_Code/LICENSE.txt`.

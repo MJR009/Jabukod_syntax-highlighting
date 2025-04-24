@@ -4,6 +4,7 @@
   "description": "Syntax highlighting of the Jabukód programming language for \"Compiler generating the target code secured against reverse analysis\" bachelors thesis",
   "icon": "./images/icon.png",
   "version": "0.0.1",
+  "license": "MIT",
   "publisher": "MJR009",
   "engines": {
     "vscode": "^1.99.0"
