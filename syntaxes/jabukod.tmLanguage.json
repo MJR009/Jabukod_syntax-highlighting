@@ -64,13 +64,13 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.jabukod",
-				"match": "\\b(if|else|while|for|foreach|return|exit|suspend|resume|continue|break|redo|restart|read|write)\\b"
+				"match": "\\b(if|else|while|for|foreach|return|exit|continue|break|redo|restart|write)\\b"
 			}]
 		},
 		"operators": {
 			"patterns": [{
 				"name": "keyword.operator.jabukod",
-				"match": "\\b(\\*\\*|-|\\~|!|\\*|\\/|%|\\+|<<|>>|<|<=|>|>=|==|!=|&|\\^|\\||&&|\\|\\||=)\\b"
+				"match": "\\b(-|\\~|!|\\*|\\/|%|\\+|<<|>>|<|<=|>|>=|==|!=|&|\\^|\\||&&|\\|\\||=)\\b"
 			}]
 		},
 		"type": {
